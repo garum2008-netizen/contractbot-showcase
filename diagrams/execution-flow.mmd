@@ -1,0 +1,18 @@
+sequenceDiagram
+  participant User
+  participant API as Worker API
+  participant AI as AI Classifier
+  participant Flow as Workflow Engine
+  participant Billing as Billing Guard
+  participant Exec as Execution Layer
+  participant Audit as Audit Log
+
+  User->>API: Submit workflow request
+  API->>AI: Classify intent and risk
+  AI->>Flow: Return workflow route
+  Flow->>Billing: Check entitlement
+  Billing-->>Flow: Allowed / requires payment
+  Flow->>Exec: Execute approved modules
+  Exec->>Audit: Store decision trail
+  Audit-->>API: Execution receipt
+  API-->>User: Result + status

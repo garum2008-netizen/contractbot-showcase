@@ -1,0 +1,19 @@
+flowchart LR
+  User[User] --> AI[AI Layer]
+  AI --> Workflow[Workflow Engine]
+  Workflow --> Billing[Stripe / Billing]
+  Billing --> Execution[Execution Layer]
+  Execution --> Audit[Audit Logging]
+  Audit --> Dashboard[Dashboard / Analytics]
+
+  Workflow --> KV[(KV State)]
+  Execution --> API[External APIs]
+  Audit --> KV
+
+  classDef core fill:#101318,stroke:#d7b56d,color:#f8f5ec,stroke-width:1px;
+  classDef data fill:#0b1820,stroke:#7dd3fc,color:#e0f2fe,stroke-width:1px;
+  classDef edge fill:#111827,stroke:#64748b,color:#e5e7eb,stroke-width:1px;
+
+  class AI,Workflow,Billing,Execution,Audit core;
+  class KV,Dashboard data;
+  class User,API edge;
