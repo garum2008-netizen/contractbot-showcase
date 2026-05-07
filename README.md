@@ -4,17 +4,66 @@ AI-powered workflow infrastructure and SaaS execution systems built with Cloudfl
 
 This repository is a curated public engineering showcase. It demonstrates architecture patterns, simplified Workers, billing event handling, workflow orchestration, and audit-ready automation without exposing production internals.
 
-## Showcase Preview
+## Video Showcase
 
-Open `index.html` for a cinematic video presentation layer:
+GitHub does not always render MP4 previews inline, so this repository includes lightweight GIF preview cards plus direct demo links. Open `index.html` for the full cinematic showcase page with muted autoplay video, dark infrastructure cards, and non-cropping `object-fit: contain` presentation.
 
-- Hero video: `videos/contractbot-quick-demo.mp4`
-- Systems architecture: `videos/eu-cross-border-legal-infrastructure.mp4`
-- AI workflow infrastructure: `videos/ai-legal-workflow-consulting.mp4`
-- Executive infrastructure advisory: `videos/premium-legaltech-advisory.mp4`
-- Digital trust: `videos/eidas-eudi-implementation-strategy.mp4`
-
-The page uses muted autoplay video, responsive dark infrastructure cards, and non-cropping `object-fit: contain` video presentation.
+<table>
+  <tr>
+    <td width="50%">
+      <a href="videos/contractbot-quick-demo.mp4">
+        <img src="previews/contractbot-quick-demo.gif" alt="ContractBot execution systems demo preview" width="100%" />
+      </a>
+      <h3>AI Workflow Infrastructure Demo</h3>
+      <p>Primary product walkthrough showing workflow execution, infrastructure positioning, and SaaS operations flow.</p>
+      <p><a href="videos/contractbot-quick-demo.mp4"><strong>Watch Demo</strong></a></p>
+    </td>
+    <td width="50%">
+      <a href="videos/eu-cross-border-legal-infrastructure.mp4">
+        <img src="previews/eu-cross-border-legal-infrastructure.gif" alt="EU cross-border infrastructure preview" width="100%" />
+      </a>
+      <h3>EU Cross-Border Systems Architecture</h3>
+      <p>Infrastructure briefing for connected legal, operational, billing, and evidence workflows across EU-facing systems.</p>
+      <p><a href="videos/eu-cross-border-legal-infrastructure.mp4"><strong>Watch Demo</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="videos/ai-legal-workflow-consulting.mp4">
+        <img src="previews/ai-legal-workflow-consulting.gif" alt="AI workflow infrastructure preview" width="100%" />
+      </a>
+      <h3>AI Workflow Infrastructure</h3>
+      <p>Shows AI-assisted orchestration for operations, compliance, revenue systems, and execution-layer automation.</p>
+      <p><a href="videos/ai-legal-workflow-consulting.mp4"><strong>Watch Demo</strong></a></p>
+    </td>
+    <td width="50%">
+      <a href="videos/premium-legaltech-advisory.mp4">
+        <img src="previews/premium-legaltech-advisory.gif" alt="Executive infrastructure advisory preview" width="100%" />
+      </a>
+      <h3>Executive Infrastructure Advisory</h3>
+      <p>Positions advisory work as system architecture, compliance infrastructure, and premium operational automation.</p>
+      <p><a href="videos/premium-legaltech-advisory.mp4"><strong>Watch Demo</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="videos/eidas-eudi-implementation-strategy.mp4">
+        <img src="previews/eidas-eudi-implementation-strategy.gif" alt="Digital trust infrastructure preview" width="100%" />
+      </a>
+      <h3>Digital Trust & EUDI Readiness</h3>
+      <p>Explains identity readiness, verification surfaces, and trust infrastructure for regulated workflow systems.</p>
+      <p><a href="videos/eidas-eudi-implementation-strategy.mp4"><strong>Watch Demo</strong></a></p>
+    </td>
+    <td width="50%">
+      <a href="index.html">
+        <img src="screenshots/dashboard-preview.png" alt="ContractBot infrastructure dashboard preview" width="100%" />
+      </a>
+      <h3>Cinematic Showcase Page</h3>
+      <p>Static premium presentation layer for viewing the complete video set outside GitHub's MP4 preview limitations.</p>
+      <p><a href="index.html"><strong>Open Showcase Page</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Features
 
@@ -77,7 +126,8 @@ User
 - `screenshots/billing-flow.png` — billing and entitlement flow.
 - `screenshots/execution-layer.png` — execution layer boundary.
 - `screenshots/dashboard-preview.png` — infrastructure dashboard preview.
-- `previews/*.jpg` — lightweight video thumbnails for portfolio previews.
+- `previews/*.jpg` — lightweight static thumbnails for portfolio previews.
+- `previews/*.gif` — animated GitHub README previews for the video cards.
 
 ## Documentation
 

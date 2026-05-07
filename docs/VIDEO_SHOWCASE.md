@@ -31,6 +31,8 @@ AI Workflow Infrastructure & SaaS Execution Systems.
 - `preload="metadata"` keeps initial loading restrained.
 - `object-fit: contain` prevents cropping important video areas.
 - Poster thumbnails live in `previews/`.
+- Lightweight GIF previews live in `previews/` for GitHub README cards.
+- README preview cards link directly to the MP4 files so GitHub never has to render raw video inline.
 - The page uses dark glass infrastructure cards, subtle glow, and minimal typography.
 
 ## Public Safety
