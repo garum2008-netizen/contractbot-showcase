@@ -6,7 +6,7 @@ This repository is a curated public engineering showcase. It demonstrates archit
 
 ## Video Showcase
 
-GitHub does not always render MP4 previews inline, so this repository includes lightweight GIF preview cards plus direct demo links. Open `index.html` for the full cinematic showcase page with muted autoplay video, dark infrastructure cards, and non-cropping `object-fit: contain` presentation.
+GitHub does not always render MP4 previews inline, so this repository includes lightweight GIF preview cards plus direct demo links. Open `index.html` for the full cinematic showcase page with muted autoplay video, custom sound toggles, dark infrastructure cards, and non-cropping `object-fit: contain` presentation.
 
 <table>
   <tr>

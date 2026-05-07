@@ -28,6 +28,9 @@ AI Workflow Infrastructure & SaaS Execution Systems.
 ## Implementation Notes
 
 - Videos autoplay muted, loop, and play inline.
+- Custom sound toggles allow clean enable/disable audio without browser controls.
+- Only one video can play audio at a time; enabling sound on one player mutes the others.
+- Sound preference is stored locally after user interaction.
 - `preload="metadata"` keeps initial loading restrained.
 - `object-fit: contain` prevents cropping important video areas.
 - Poster thumbnails live in `previews/`.
