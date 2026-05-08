@@ -1,8 +1,18 @@
-# ContractBot Showcase Infrastructure
+# ContractBot Showcase — by Inna Kragh
 
-AI-powered workflow infrastructure and SaaS execution systems built with Cloudflare Workers, Stripe and API-first automation.
+AI Workflow Infrastructure & SaaS Execution Systems
 
-This repository is a curated public engineering showcase. It demonstrates architecture patterns, simplified Workers, billing event handling, workflow orchestration, and audit-ready automation without exposing production internals.
+This repository is a curated public engineering showcase by Inna Kragh. It demonstrates architecture patterns, simplified Workers, billing event handling, workflow orchestration, and audit-ready automation without exposing production internals.
+
+## Founder
+
+Built and curated by Inna Kragh  
+Founder of ContractBot  
+AI Systems Architect focused on workflow infrastructure, execution systems, and compliance-aware SaaS automation.
+
+- ContractBot: [contractbot.eu](https://contractbot.eu)
+- LinkedIn: [Inna Kragh](https://linkedin.com/in/inna-kragh-1151a526b)
+- ORCID: [0009-0008-3249-4179](https://orcid.org/0009-0008-3249-4179)
 
 ## Video Showcase
 
@@ -147,7 +157,7 @@ User
 
 Suggested repository description:
 
-> AI-powered SaaS infrastructure and workflow execution systems built on Cloudflare Workers, Stripe, KV, and API-first automation.
+> AI-powered SaaS infrastructure and workflow execution systems by Inna Kragh, built on Cloudflare Workers, Stripe, KV, and API-first automation.
 
 Suggested topics:
 
@@ -155,7 +165,7 @@ Suggested topics:
 
 Profile positioning:
 
-> AI Systems Architect building workflow infrastructure, SaaS execution systems, and API-first automation on Cloudflare Workers and Stripe.
+> Inna Kragh is an AI Systems Architect building workflow infrastructure, SaaS execution systems, and API-first automation on Cloudflare Workers and Stripe.
 
 Pinned repo recommendation:
 
